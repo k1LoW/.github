@@ -16,6 +16,10 @@ updates:
 
   - package-ecosystem: "gomod"
     directory: "/"
+    groups:
+      dependencies:
+        patterns:
+          - "*"
     schedule:
       interval: "daily"
       time: "8:00"
